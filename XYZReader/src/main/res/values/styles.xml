@@ -17,15 +17,15 @@
 
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
     </style>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
     </style>
 
-    <style name="Theme.Bacon.Detail">
+    <style name="AppTheme.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
